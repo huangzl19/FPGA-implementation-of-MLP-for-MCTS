@@ -1,0 +1,6 @@
+v++ -c -t sw_emu --config ../src/u200.cfg -k top -I../ ../src/Mydataflow.cpp -o top.xo
+v++ -c -t hw_emu --config ../src/u200.cfg -k top -I../ ../src/Mydataflow.cpp -o top.xo
+v++ -c -t hw --config ../src/u200.cfg -k top -I../ ../src/Mydataflow.cpp -o top.xo
+
+cd _x/top/top/top/solution/syn/report
+vi matmul2_1_csynth.rpt 
